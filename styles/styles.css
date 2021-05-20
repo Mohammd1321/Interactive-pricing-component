@@ -29,7 +29,7 @@ h1 {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
-h1, h3, .mainCard span {
+h1, h3, .mainCard span:first-child {
   font-weight: 800;
   color: #293356;
 }
@@ -38,7 +38,7 @@ main h3 {
   font-size: clamp(1rem,2vw,1.2rem);
 }
 
-h3, h4, li {
+h3, h4, li, .time {
   font-weight: 600;
   color: #858fad;
 }
@@ -60,7 +60,7 @@ hr {
   left: 0px;
 }
 
-.billing span {
+.billing span:first-child {
   font-size: 3rem;
   color: #293356;
   padding-right: 5px;
